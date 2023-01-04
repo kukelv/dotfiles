@@ -1,0 +1,13 @@
+[user]
+  email = kelvinkaiku@gmail.com
+  name = Kelvin Ku
+
+[alias]
+  s = status
+  st = status
+  lgs = log --graph --stat
+  lg = log --graph
+  d = diff
+
+[color "diff"]
+  meta = yellow

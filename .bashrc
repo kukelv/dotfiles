@@ -121,9 +121,12 @@ export PATH=~/bin:$PATH
 
 source /usr/share/doc/fzf/examples/key-bindings.bash
 
-# menu-complete freeze bash for a few seconds ...
+# menu-completes freeze bash for a few seconds so we disable these
 bind -r "\C-n"
 bind -r "\C-p"
+
+# disable editing commandline in EDITOR
+bind -m vi-command '"v": ""'
 
 h() {
   if [ $# -eq 0 ]; then
